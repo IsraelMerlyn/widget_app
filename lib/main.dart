@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'Material App',
       theme: AppTheme(selectedColor: 0).getTheme(),
       debugShowCheckedModeBanner: false,
+      // ignore: prefer_const_constructors
       home: HomeScreen()
     );
   }
