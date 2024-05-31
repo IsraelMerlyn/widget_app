@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:widget_app/config/theme/app_theme.dart';
+import 'package:widget_app/presentation/Screens/home/home_screen.dart';
 
 void main() => runApp(const MyApp());
 
@@ -10,16 +12,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
     
       title: 'Material App',
-      theme: ThemeData(useMaterial3: true),
+      theme: AppTheme(selectedColor: 0).getTheme(),
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Material App Bar'),
-        ),
-        body: const Center(
-          child: Text('Hello World'),
-        ),
-      ),
+      // ignore: prefer_const_constructors
+      home: HomeScreen()
     );
   }
 }
