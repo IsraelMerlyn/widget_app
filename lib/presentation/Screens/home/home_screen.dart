@@ -55,6 +55,7 @@ class _CustomListTitle extends StatelessWidget {
 
       onTap: (){
         //TODO navegacion a otra pantalla
+        
 
         
       } ,

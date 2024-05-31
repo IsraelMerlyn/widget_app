@@ -33,5 +33,11 @@ class MenuItem {
       link: 'link',
       icon: Icons.credit_card
       ),
+       MenuItem(
+      title: 'setting',
+      subTitle: '',
+      link: 'link',
+      icon: Icons.settings
+      ),
 
 ];
