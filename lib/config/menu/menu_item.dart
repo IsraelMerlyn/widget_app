@@ -39,5 +39,17 @@ class MenuItem {
       link: 'link',
       icon: Icons.settings
       ),
+       MenuItem(
+      title: 'setting',
+      subTitle: '',
+      link: 'link',
+      icon: Icons.article_rounded,
+      ),
+       MenuItem(
+      title: 'setting',
+      subTitle: '',
+      link: 'link',
+      icon: Icons.article_rounded,
+      ),
 
 ];
